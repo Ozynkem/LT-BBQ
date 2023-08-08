@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   font-family:sans-serif;
+}
+.firstsec{
+    background-image: url(./Assets/images/introsteakimage.avif);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolut;
+       
+}
+.list1{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0% 10%;   
+}
+.list11{
+    color: orange;
+    font-size: 13px;
+    font-weight: 600;
+}
+.try{
+    padding-left: 13%;
+}
+.try1{
+    padding-left: 15%;
+}
+/* .nav-link{
+    position:absolute ;
+} */
+.nav-link:hover{
+    color: orange;
+}
+.nav-link::after{
+    content:'';
+    transition: 1.0s;
+    height: 2px;
+    width: 90%;
+    background-color: orange;
+    position: absolut;
+    bottom: 0;
+    left: 10px;
+    opacity: 0;    
+}
+.nav-link:hover::after{
+    opacity: 1.5;
+}
+.item1{
+    padding: 0px 20px;
+}
+.thesec{
+    padding: 10% 10% 13% 10%;
+    position: relative;
+}
+.firsttext{
+    color: white;
+    font-size: 65px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firsttext1{
+    color: white;
+    font-size: 25px;
+    padding: 3% 0%;
+    font-family:serif;
+    line-height: 50px;
+}
+.button1{
+    padding: 2% 5%;
+    color: white;
+    background-color: orange;
+}
+.black{
+    background-color: black;
+    color: white;
+    padding: 2% 6%;
+    
+}
+.black1{
+    font-size: 17px;
+    padding: 2% 0%;
+}
+.black2{
+    padding: 2% 0% 2% 0%;
+    font-size: 40px;
+}
+.ad{
+    width: 1700px;
+}
+.sec2{
+    position: absolute;
+    top: 110%;
+    left: 10%;     
+}
+
+
+.sec3{
+    background-color: rgb(241,240,236);
+    padding: 20% 0% 5% 0%;
+}
+.bott{
+    border-top: 2px orange solid;
+    width: 100px;
+    padding-top: 5px;
+    border-bottom: 2px orange solid;
+}
+
+.card01{
+    background-color: white;
+    padding: 2% 1%;
+    text-align: center;
+    margin-left: 2%;
+}
+.rib{
+    font-family: cursive;
+    font-weight: 600;
+    padding: 4% 0%;
+    font-size: 20px;
+}
+.rib1{
+    color: orange;
+    font-size: 30px;
+    font-family: cursive;
+    padding-bottom: 3%;
+    font-weight: 600;
+}
+.rib2{
+    font-family: cursive;
+    font-size: 15px;
+}
+.num{
+    padding: 30% 0% 10% 0%;
+    font-size: 45px;
+    font-weight: 600;
+}
+.num1{
+    color: orange;
+}
+.rib22{
+    padding: 4% 0%;
+    font-family: cursive;
+    font-size: 17px;
+}
+.exp1{
+    color: white;
+    background-color: orange;
+    padding: 2% 5%;
+    border: orange solid;
+    
+}
+.icon{
+    color: orange;
+    font-size: 25px;
+    padding: 0% 6px;
+}
+.sec4{
+    background-color: rgb(241,240,236);
+    text-align: center;
+    padding: 4% 0%;
+}
+.love{
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+}
+.jane{
+    border-radius: 70px;
+}
+.jane1{
+    font-weight: 600;
+}
+.sec5{
+    background-color:rgb(241,240,236);
+    position: relative;
+}
+.numm{
+    background-color: white;
+}
+.chef{
+    width: 250px;
+}
+.cheflet{
+    background-color: orange;
+    text-align: center;
+    padding: 8% 3%;
+    color: white;
+    font-family: cursive;
+}
+.cheflet1{
+    font-size: 30px ;
+    font-weight: 600;
+    font-family:cursive;
+}
+.cheflet2{
+    font-size: 13px;
+}
+
+
+
+
+.workna{
+    position: relative;
+    background-color:rgb(241,240,236) ;
+}
+.chefsec{
+    position: absolute;
+    top: 310%;
+    left: 16%;   
+}
+.numrest{
+    background-color: orange;
+    color: white;
+    padding: 4% 9%;
+    border: 1px solid orange;
+    font-size: 18px;
+}
+.line{
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding-top: 3px;
+    width: 26%;
+}
+.num3{
+    color: orange;
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: cursive;
+}
+.backcol{
+    background-color: white;
+    padding: 10% 15%;
+    margin-top: 20%;
+}
+.taste{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.taste1{
+    font-size: 14px;
+    font-family: cursive;
+}
+.aboutrest{
+    padding: 5% 0%;
+}
+
+.go1{
+    background-image: url(./Assets/images/suyalike2.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 50px 0px 200px 0px;
+    background-size: 100% 100%;
+    object-fit: contain;
+    color: white;
+    background-repeat: no-repeat;
+}
+.num30{
+    color: orange;
+    margin-bottom: 1%;
+    font-size: 50px;
+    font-family: cursive;
+}
+.numtext1{
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+.lin{
+    border-top: orange 2px solid;
+    border-bottom: 2px solid orange;
+    padding: 0.1px 90px;
+    /* width: 400%; */ 
+}
+.lin2{
+    font-size: 16px;
+    padding: 1% 0%;
+    font-weight: 600;
+}
+.chef1{
+    width: 270px;
+}
+.sec6{
+    background-color: rgb(241,240,236);
+    padding-top: 8%;
+}
+.sec06{
+    background-color: white;
+    text-align: center;
+    padding: 5% 6%;
+    /* height: 60%; */
+}
+.hot{
+    font-weight: 600;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding: 5% 10%; */
+}
+.hot1{
+    font-size: 15px;
+    padding: 7% 0%;
+}
+.hotpic{
+    height: 350px;
+    width: 700px;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+}
+.parent2{
+    display: flex;
+}
+.sec7{
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+.text4{
+    font-size: 40px;
+    color:orange;
+    font-weight: 600;   
+}
+.text04{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.lline{
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    /* padding: px; */
+    /* width: 100px; */
+    padding-left: 10%;
+}
+.textchoose{
+    padding: 2%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sec8{
+    background-image: url(./Assets/images/chefkitchen1.jpg);
+    background-blend-mode:hue;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 120px 0px 120px 0px;
+    background-size: 100% 100%;
+    object-fit: contain;
+    color: white;
+    background-repeat: no-repeat;
+}
+.lasttext{
+    color: orange;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.lasttext1{
+    color: orange;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.lasttext2{
+    padding:2%;
+    font-size: 16px;
+}
+.get{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: cursive;
+    padding-bottom: 1%;
+}
+.get1{
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.icon1{
+    background-color:orange;
+    border: orange solid 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin: 0px 3px;
+    margin-top: 30px;
+}
+.sec9{
+    background-color:rgb(11,19,21);
+    text-align: center;
+    padding: 4% 0% 0% 0%;
+    color: white;
+}
+.abouttext{
+    color: rgb(230,231,231);
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.abouttext1{
+    color:rgb(190, 233, 241);
+    font-size: 14px;
+
+}
+.footerlink{
+    color: orange;
+    font-size: 15px;
+    border-right: 1px solid green;
+    padding: 0px 5px;
+    font-weight: 600;
+
+}
+.footerlink:hover{
+    color: white;
+    font-size: 15px;
+}
+.footb{
+    border-top: 1px solid rgb(91, 90, 88);
+    padding-top: 10px;
+}
+.foottext{
+    font-size: 12px;
+    font-weight: 600;
+}
+.foottext1{
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+}

@@ -1,0 +1,211 @@
+@media only screen and (max-width: 600px) {
+    .item1{
+        padding: 0px 0px;
+    }
+    .try1{
+        padding-left: 1%;
+    }
+    .try{
+        padding-left: 10%;
+    }
+    .firstsec{
+        background-image: url(./Assets/images/introsteakimage.avif);
+        background-size:cover ;
+        background-repeat:repeat-y;
+        height:vh;   
+    }
+    .firsttext{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .item1{
+        padding: 0px 10px;
+    }
+   
+    .button1{
+        padding: 5% 10%;
+        margin: 3% 0% 5% 0%;
+        color: white;
+        background-color: orange;
+        font-size: 20px;
+    }
+    .thesec{
+        padding: 0% 10% 15% 10%;
+    }
+    .firsttext1{
+        color: white;
+        font-size: 19px;
+        padding: 5% 0%;
+        font-family:serif;   
+        text-align: center;
+        line-height: 25px;
+    }
+    .exp{
+        padding: 15% 0%;
+        text-align: center;
+    }
+    .black{
+        background-color: black;
+        color: white;
+        padding: 7% 5%;
+    }
+    .black1{
+        font-size: 17px;
+        padding: 2% 0%;
+    }
+    .black2{
+        padding: 2% 0% 2% 0%;
+        font-size: 30px;
+    }
+    .sec2{
+        position: relative;
+        bottom: 0px;
+    }
+    .ad{
+        width: 800px;
+    }
+    .black{
+        background-color: black;
+        color: white;
+        padding: 2% 3%;
+        
+    }
+    .sec2{
+        position: absolute;
+        top: 85%;
+        left: 0%;  
+           
+    }
+    .sec3{
+        background-color: rgb(241,240,236);
+        padding: 20% 0% 5% 0%;
+        margin-top: 80%;
+    }
+    .icon{
+        color: orange;
+        font-size: 25px;
+        padding: 0% 6px;
+    }
+    .sec4{
+        background-color: rgb(241,240,236);
+        text-align: cente;
+    }
+    .love{
+        font-family: cursive;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .jane{
+        border-radius: 70px;
+    }
+    .jane1{
+        font-weight: 600;
+    }
+    .meat{
+        display: none;
+    }
+    .chefsec{
+        position: absolute;
+        top: 410%;
+        left: 16%;   
+    }
+    .backcol{
+        background-color: white;
+        padding: 10% 15%;
+        margin-top: 180%;
+    }
+    .go1{
+        background-image: url(./Assets/images/suyalike2.jpg);
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, .8);
+        padding: 0px 0px 0px 0px;
+        background-size: 100% 100%;
+        object-fit: contain;
+        color: white;
+        background-repeat: no-repeat;
+        padding-bottom: 20%;
+    }
+    .num30{
+        color: orange;
+        margin-bottom: 1%;
+        font-size: 50px;
+        font-family: cursive;
+        padding-top: 20px;
+    }
+    .numtext1{
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 0px;
+        font-family: cursive;
+    }
+    .lin{
+        border-top: orange 2px solid;
+        border-bottom: 2px solid orange;
+        padding: 0.1px 90px;
+        /* width: 400%; */ 
+    }
+    .lin2{
+        font-size: 16px;
+        padding: 1% 0%;
+        font-weight: 600;
+    }
+    .chef1{
+        width: 570px;
+        padding-bottom:20px ;
+    }
+    .parent1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .parent2{
+        flex-direction: column-reverse;
+    }
+    .sec8{
+        background-image: url(./Assets/images/chefkitchen1.jpg);
+        background-blend-mode:hue;
+        background-color: rgba(0, 0, 0, .5);
+        padding: 60px 0px 60px 0px;
+        background-size:100% 100%;
+        object-fit:contain;
+        color: white;
+        background-repeat:no-repeat;
+        text-align: center;
+        
+    }
+    .lasttext{
+        color: orange;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .lasttext1{
+        color: orange;
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .lasttext2{
+        padding:2%;
+        font-size: 16px;
+    }
+    .get{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: cursive;
+        padding-bottom: 1%;
+    }
+    .get1{
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: 600;
+    }
+    .icon1{
+        background-color:orange;
+        border: orange solid 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: 0px 3px;
+        margin-top: 30px;
+    }
+    
+}
